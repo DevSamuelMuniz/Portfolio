@@ -1,0 +1,23 @@
+.content-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.button-header {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(211, 211, 211, 0.3);
+
+  padding: 1rem 2rem;
+}
