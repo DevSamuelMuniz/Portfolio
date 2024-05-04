@@ -1,0 +1,44 @@
+.title-apres {
+  background: linear-gradient(
+    90deg,
+    rgba(4, 46, 101, 1) 0%,
+    rgba(23, 93, 186, 1) 100%
+  );
+  -webkit-background-clip: text; /* Clipar o texto para o gradiente */
+  -webkit-text-fill-color: transparent; /* Tornar o texto transparente */
+  font-size: 3rem; /* Tamanho do texto */
+
+  width: 50%;
+}
+
+.conhecer-ctn {
+  font-size: 0.9rem;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 0.8rem;
+  width: fit-content;
+  padding: 0.4rem 0.8rem;
+  color: rgb(71, 71, 71);
+}
+
+.btn-apres {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+  border: 1px solid rgb(121, 121, 121);
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-family: "Syne", sans-serif;
+}
+
+.ico {
+  margin-left: 0.6rem;
+}
+
+.ctn-btn {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+
+  margin-top: 3rem;
+}
