@@ -1,7 +1,8 @@
 .content-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: fixed;
+  top: 10%;
+  left: 40%;
+  transform: translate(-50%, -50%);
 }
 
 .ul-header {
@@ -12,12 +13,31 @@
   list-style: none;
 }
 
+.li-header {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(82, 82, 82);
+  font-family: "Syne", sans-serif;
+}
+
+.button-header:hover {
+  color: rgb(17, 17, 17);
+  scale: 1.04;
+}
+
+.button-header.selected {
+    border: 2px solid rgb(102, 102, 102); /* Altere aqui para a cor e largura da borda desejada */
+  }
+  
+
 .button-header {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(211, 211, 211, 0.3);
+  border: none;
+  transition: 0.2s ease-in-out;
 
   padding: 1rem 2rem;
+  cursor: pointer;
 }
