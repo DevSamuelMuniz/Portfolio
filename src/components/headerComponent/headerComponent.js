@@ -62,12 +62,7 @@ function HeaderComponent() {
       </div>
 
       <div className="conversar-header">
-        <a className="work-text">
-          Vamos conversar!
-          <span>
-            <FaWalkieTalkie />
-          </span>
-        </a>
+        <a className="work-text">Vamos conversar!</a>
       </div>
     </main>
   );

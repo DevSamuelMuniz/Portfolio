@@ -40,4 +40,32 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
+  <script>
+    // Função para controlar o scroll com delay
+    function scrollToSection(sectionId) {
+      const section = document.getElementById(sectionId);
+      if (section) {
+        const top = section.offsetTop;
+        window.scrollTo({
+          top: top,
+          behavior: 'smooth'
+        });
+      }
+    }
+  
+    // Atraso em milissegundos
+    const delay = 1000;
+  
+    // Event listener para os links de navegação
+    document.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', function(event) {
+        event.preventDefault();
+        const sectionId = this.getAttribute('href').slice(1);
+        setTimeout(() => {
+          scrollToSection(sectionId);
+        }, delay);
+      });
+    });
+  </script>
 </html>
