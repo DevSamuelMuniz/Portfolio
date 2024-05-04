@@ -1,8 +1,13 @@
 .content-header {
   position: fixed;
-  top: 10%;
-  left: 40%;
+  top: 8%;
+  left: 60%;
   transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
 }
 
 .ul-header {
@@ -14,7 +19,7 @@
 }
 
 .li-header {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   color: rgb(82, 82, 82);
   font-family: "Syne", sans-serif;
@@ -26,9 +31,8 @@
 }
 
 .button-header.selected {
-    border: 2px solid rgb(102, 102, 102); /* Altere aqui para a cor e largura da borda desejada */
-  }
-  
+  border: 2px solid rgb(102, 102, 102);
+}
 
 .button-header {
   background: rgba(255, 255, 255, 0.2);

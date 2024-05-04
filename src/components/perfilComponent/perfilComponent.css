@@ -7,7 +7,7 @@
   height: 90vh;
   border: 2px solid rgb(216, 216, 216);
   border-radius: 2.4rem;
-  margin-left: 2rem;
+  margin-left: 4rem;
   padding: 1rem;
 
   display: flex;
@@ -120,6 +120,7 @@
 .work-text {
   font-size: 1rem;
   padding: 0.8rem 1.4rem;
+  font-family: "Syne", sans-serif;
 
   background: rgb(4, 46, 101);
   background: linear-gradient(
@@ -133,7 +134,7 @@
   color: white;
 
   text-decoration: none;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .work-text:hover {
