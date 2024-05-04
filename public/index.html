@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
+      name="Portfolio Samuel Muniz"
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
@@ -24,7 +24,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Portfolio Samuel Muniz</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -41,31 +41,5 @@
     -->
   </body>
 
-  <script>
-    // Função para controlar o scroll com delay
-    function scrollToSection(sectionId) {
-      const section = document.getElementById(sectionId);
-      if (section) {
-        const top = section.offsetTop;
-        window.scrollTo({
-          top: top,
-          behavior: 'smooth'
-        });
-      }
-    }
-  
-    // Atraso em milissegundos
-    const delay = 1000;
-  
-    // Event listener para os links de navegação
-    document.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', function(event) {
-        event.preventDefault();
-        const sectionId = this.getAttribute('href').slice(1);
-        setTimeout(() => {
-          scrollToSection(sectionId);
-        }, delay);
-      });
-    });
-  </script>
+
 </html>
