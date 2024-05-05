@@ -8,7 +8,7 @@ function apresentacaoComponent() {
     <main>
       <div>
         <h1 className="conhecer-ctn">Vamos nos conhecer!</h1>
-        <h1 className="title-apres">Eu sou Samuel Muniz desenvolvedor Frontend e Backend.</h1>
+        <h1 className="title-apres">Eu sou Samuel Muniz desenvolvedor Fullstack.</h1>
       </div>
 
       <div className="ctn-btn">
