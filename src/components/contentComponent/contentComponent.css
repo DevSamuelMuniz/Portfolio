@@ -1,6 +1,11 @@
 .container-content {
   width: 76vw;
   height: 100vh;
-  padding-top: 36rem;
-  margin-left: 24rem;
+  padding-top: 30rem;
+  margin-left: 26rem;
+
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 12rem;
 }

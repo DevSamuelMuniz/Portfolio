@@ -6,9 +6,8 @@
   );
   -webkit-background-clip: text; /* Clipar o texto para o gradiente */
   -webkit-text-fill-color: transparent; /* Tornar o texto transparente */
-  font-size: 3rem; /* Tamanho do texto */
+  font-size: 4rem; /* Tamanho do texto */
 
-  width: 50%;
 }
 
 .conhecer-ctn {
