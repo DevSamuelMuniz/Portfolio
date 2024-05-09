@@ -1,6 +1,6 @@
 .content-header {
-  position: relative;
-  top: 20%;
+  position: absolute;
+  top: 10%;
   left: 60%;
   transform: translate(-50%, -50%);
 
